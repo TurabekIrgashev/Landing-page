@@ -1,0 +1,241 @@
+//---------<backgrounds>-------------
+$body-bg: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+$btn-primary-bg: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+$main-cards-bg: rgba(255, 255, 255, 0.1);
+$transparent-btn-bg:rgba(255, 255, 255, 0.5);
+//-------</backgrounds>---------------
+
+
+//--------<text_colors>---------
+$main-color:rgba(255, 255, 255, 0.5); //=> half white
+$purple-text-color: rgba(183, 92, 255, 1); //=> purple text
+$just-white: #fff;
+//---------</text_colors>--------
+
+
+//--------<shadows>---------
+$box-shadow: rgba(0, 0, 0, 0.25);
+//--------</shadows>-------
+
+
+//------<default-border_radius>------
+$border-radius: 10px;
+//-------</default-border_radius>-----
+
+
+//--------fonts---------
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,400&display=swap');
+//font-family: 'Poppins', sans-serif;
+//font-family: 'Roboto', sans-serif;
+
+//------</fonts>------------------
+body{
+    background-image: $body-bg;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexWrap{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.flexcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.font{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    color: $just-white !important;
+}
+.search{
+    background-color: $main-cards-bg;
+    border-radius: 10px;
+    border: none;
+}
+.button{
+    background-image: $btn-primary-bg;
+    border: none;
+    border-radius: 10px;
+}
+.centerText{
+    h1{
+        color: $just-white;
+        font-family: 'Roboto', sans-serif;
+        font-size: 40px;
+        font-weight: 700;
+
+    }
+    p{
+        text-align: center;
+        max-width: 420px;
+        font-size: 20px;
+        color: $main-color;
+    }
+}
+#Collections{
+    .collect{
+        font-family: 'Poppins', sans-serif;
+        color: $just-white !important;
+        h1{
+            font-size: 50px;
+            max-width: 490px;
+        }
+        p{
+            font-size: 20px;
+            max-width: 490px;
+            color: $main-color;
+        }
+    }
+    .buttons{
+        .firstButton{
+            background-image: $btn-primary-bg;
+            border: none;
+            border-radius: 10px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+        .secondButton{
+            background-image: $main-cards-bg;
+            border-radius: 10px;
+            border: none;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+    }
+    .art{
+        font-family: 'Poppins', sans-serif;
+        h1{
+            font-size: 30px;
+        }
+        p{
+            font-size: 20px;
+            color: $main-color;
+        }
+    }
+    .grid{
+        max-height: 600px;
+    }
+}
+#Feature{
+    color: $just-white;
+    .rightText{
+        h1{
+            font-family: 'Roboto', sans-serif;
+            font-size: 40px;
+            font-weight: 700;
+
+        }
+        p{
+            max-width: 420px;
+            font-size: 20px;
+            color: $main-color;
+        }
+        .firstButton{
+            background-image: $btn-primary-bg;
+            border: none;
+            border-radius: 10px;
+            margin-right: 20px;
+            margin-top: 20px;
+        }
+    }
+}
+.firstButton{
+    transition: 3s;
+    color: $just-white !important;
+    background-color: #644850;
+    border: none;
+    border-radius: 10px;
+    // margin-right: 20px;
+    margin-top: 20px;
+    &:hover{
+        background-image: $btn-primary-bg;
+        &:active{
+            background-image: $btn-primary-bg;
+            transition: 3s;
+        }
+    }
+}
+.cards{
+    border-radius: 10px;
+    background-color: #644850;
+    .place{
+        background-image: $btn-primary-bg;
+    }
+    &:hover{
+        transition: 1s;
+        .place {
+            color: rgb(108, 108, 255);
+            background-image: none;
+            background-color: $transparent-btn-bg;
+        }
+        background-color: $transparent-btn-bg;
+    }
+}
+#Creater{
+    .image{
+        width: 100px;
+        height: 100px;
+        margin-top: -70px;
+    }
+}
+#FAQ{
+    .centerText{
+        h1{
+            text-align: center;
+            max-width: 380px;
+        }
+    }
+    .accordion{
+        .accordion-item{
+            color: $just-white !important;
+            background: transparent !important;
+            .accordion-header{
+                background: transparent !important;
+            }
+            .accordion-button::after{
+                content: "+";
+                background-image: none !important;
+            }
+            .collapsed{
+                color: $just-white !important;
+                background: transparent !important;
+            }
+        }
+    }
+}
+#NFT{
+   .centerText{
+            border-radius: 10px;
+            background-image: $btn-primary-bg;
+            h1{
+                text-align: center;
+                max-width: 500px;
+            }
+            .firstButton{
+                background-color: $purple-text-color;
+            }
+        }
+}
+footer{
+    .rightText{
+        h1{
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            font-weight: 700;
+            color: $just-white;
+        }
+        p{
+            font-size: 15px;
+            color: $main-color;
+        }
+    }
+}

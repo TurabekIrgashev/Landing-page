@@ -1,0 +1,203 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&family=Roboto:ital,wght@0,500;1,400&display=swap");
+body {
+  background-image: linear-gradient(113.49deg, #984D38 -30.3%, #181E41 58.12%);
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexWrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.flexcenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.font {
+  font-family: "Poppins", sans-serif;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff !important;
+}
+
+.search {
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: none;
+}
+
+.button {
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border: none;
+  border-radius: 10px;
+}
+
+.centerText h1 {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+.centerText p {
+  text-align: center;
+  max-width: 420px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+#Collections .collect {
+  font-family: "Poppins", sans-serif;
+  color: #fff !important;
+}
+#Collections .collect h1 {
+  font-size: 50px;
+  max-width: 490px;
+}
+#Collections .collect p {
+  font-size: 20px;
+  max-width: 490px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#Collections .buttons .firstButton {
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#Collections .buttons .secondButton {
+  background-image: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  border: none;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+#Collections .art {
+  font-family: "Poppins", sans-serif;
+}
+#Collections .art h1 {
+  font-size: 30px;
+}
+#Collections .art p {
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#Collections .grid {
+  max-height: 600px;
+}
+
+#Feature {
+  color: #fff;
+}
+#Feature .rightText h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 40px;
+  font-weight: 700;
+}
+#Feature .rightText p {
+  max-width: 420px;
+  font-size: 20px;
+  color: rgba(255, 255, 255, 0.5);
+}
+#Feature .rightText .firstButton {
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  border: none;
+  border-radius: 10px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.firstButton {
+  transition: 3s;
+  color: #fff !important;
+  background-color: #644850;
+  border: none;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+.firstButton:hover {
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+.firstButton:hover:active {
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+  transition: 3s;
+}
+
+.cards {
+  border-radius: 10px;
+  background-color: #644850;
+}
+.cards .place {
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+.cards:hover {
+  transition: 1s;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+.cards:hover .place {
+  color: #6c6cff;
+  background-image: none;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+#Creater .image {
+  width: 100px;
+  height: 100px;
+  margin-top: -70px;
+}
+
+#FAQ .centerText h1 {
+  text-align: center;
+  max-width: 380px;
+}
+#FAQ .accordion .accordion-item {
+  color: #fff !important;
+  background: transparent !important;
+}
+#FAQ .accordion .accordion-item .accordion-header {
+  background: transparent !important;
+}
+#FAQ .accordion .accordion-item .accordion-button::after {
+  content: "+";
+  background-image: none !important;
+}
+#FAQ .accordion .accordion-item .collapsed {
+  color: #fff !important;
+  background: transparent !important;
+}
+
+#NFT .centerText {
+  border-radius: 10px;
+  background-image: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+}
+#NFT .centerText h1 {
+  text-align: center;
+  max-width: 500px;
+}
+#NFT .centerText .firstButton {
+  background-color: #b75cff;
+}
+
+footer .rightText h1 {
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  color: #fff;
+}
+footer .rightText p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5);
+}
+
+/*# sourceMappingURL=style.css.map */
